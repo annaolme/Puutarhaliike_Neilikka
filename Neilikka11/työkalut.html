@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="neilikka.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Puutarhaliike Neilikka</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div>
+        <div class="header">
+            <h1>Puutarhaliike Neilikka</h1>
+        </div>
+
+        <div class="topnav">
+            <a href="etusivu.html">Etusivu</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <a href=" ">Tuotteet</a>
+                    </button>
+                <div class="dropdown-content">
+                    <a href="sisäkasvit.html">Sisäkasvit</a>
+                    <a href="ulkokasvit.html">Ulkokasvit</a>
+                    <a href="työkalut.html">Työkalut</a>
+                    <a href="kasvien_hoito.html">Kasvien hoito</a>
+                </div>
+            </div>
+            <a href="myymälät.html">Myymälät</a>
+            <a href="tietoa_meistä.html">Tietoa meistä</a>
+            <a href="signup.html">Ota yhteyttä</a>
+        </div>
+
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="cart-modal-overlay">
+                    <div class="cart-modal">
+                        <i id="close-btn" class="fas fa-times"></i>
+                        <h1 class="cart-is-empty">Cart is empty</h1>
+
+                        <div class="product-rows">
+                        </div>
+                        <div class="total">
+                            <h1 class="cart-total">TILAUS YHTEENSÄ</h1>
+                            <span class="total-price">$0</span>
+                            <button class="purchase-btn">OSTAA</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--   end of cart modal -->
+                <div class="cart-btn">
+                    <i id="cart" class="fas fa-shopping-cart"></i>
+                    <span class="cart-quantity">0</span>
+                </div>
+                <!--  products  -->
+                <div class="items-container">
+                    <div class="card-1 card">
+                        <h4><br>Kärrykastelukela <br>Fiskars M 20 m </h4>
+                        <img class="product-image" src="img/Kärrykastelukela_Fiskars.jpg" alt=" ">
+                        <button class="add-to-cart ">Siirrä ostoskoriin</button>
+                        <span class="product-price ">64.99€</span>
+                    </div>
+                    <div class="card-2 card ">
+                        <h4><br>Raivaussakset<br> teleskooppivarrella</h4>
+                        <img class="product-image " src="img/Raivaussakset_teleskooppivarrella.jpg" alt=" ">
+                        <button class="add-to-cart ">Siirrä ostoskoriin</button>
+                        <span class="product-price ">99.99€</span>
+                    </div>
+                    <div class="card-3 card ">
+                        <h4><br><br>Rikkaruohonpoistaja</h4>
+                        <img class="product-image " src="img/Rikkaruohonpoistaja.jpg " alt=" ">
+                        <button class="add-to-cart ">Siirrä ostoskoriin</button>
+                        <span class="product-price ">29.99€</span>
+                    </div>
+                    <div class="card-4 card ">
+                        <h4><br>Rautaharava <br> Fiskars QuikFit</h4>
+                        <img class="product-image " src="img/Rautaharava_Fiskars.jpg" alt=" ">
+                        <button class="add-to-cart ">Siirrä ostoskoriin</button>
+                        <span class="product-price ">20.99€</span>
+                    </div>
+                    <div class="card-5 card ">
+                        <h4><br>Teleskooppivarsi <br>Fiskars QuikFit M</h4>
+                        <img class="product-image " src="img/Teleskooppivarsi_Fiskars.jpg" alt=" ">
+                        <button class="add-to-cart ">Siirrä ostoskoriin</button>
+                        <span class="product-price ">37.99€</span>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="rightcolumn ">
+                <div class="card ">
+                    <h2>Uutisia</h2>
+                    <p>2.1.2016 Hyvää uutta vuotta! Uuden vuoden kunniaksi myymälöissämme upeita tarjouksia.</p>
+                    <p>14.12.2015 Joulukukat edullisesti meiltä. Myymälöissämme myös kattava ja edullinen valikoima joulukuusia.
+                    </p>
+                    <p>1.9.2015 Nyt on hyvä aika aloittaa puutarhan valmistelu talven lepokautta varten. Meiltä löydät kaikki työkalut ja tarvikkeet.</p>
+                </div>
+            </div>
+        </div>
+        <script src="Ostoskori.js "></script>
+</body>
+<footer id="footer">
+    <div class="column">
+        <p>Puutarhaliike Neilikka</p>
+        <p>Fabianinkatu 42, 00100 Helsinki</p>
+        <p>Puh. xx-xxxxxxx</p>
+        <p>Sähköposti: helsinki@puutarhaliikeneilikka.fi</p>
+        <p>Avoinna</p>
+        <p>ma-ke 9-17</p>
+        <p>la 12-18</p>
+    </div>
+    <div class="column">
+        <p>Puutarhaliike Neilikka</p>
+        <p>Kivenlahdentie 10, 01234 Espoo</p>
+        <p>Puh. xx-xxxxxxx</p>
+        <p>Sähköposti: espoo@puutarhaliikeneilikka.fi</p>
+        <p>Avoinna</p>
+        <p>ma-ke 9-17</p>
+        <p>la 12-18</p>
+    </div>
+    <div id="map"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js? key=55fb9bb830-88819a62f1-rhu7k7&callback=initMap"></script>
+</footer>
+
+</html>
